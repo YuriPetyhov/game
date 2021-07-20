@@ -1,0 +1,82 @@
+.Btns {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.Btn {
+  background: linear-gradient(180deg, #fcd86f 0%, #eda439 100%);
+  box-shadow: inset 0px -3.34533px 3.34533px rgba(255, 252, 220, 0.4),
+    inset 0px 2.509px 1.67266px #ffedc9,
+    0px 3.34533px 3.34533px rgba(0, 0, 0, 0.25);
+  border: 0px;
+  border-radius: 17.3211px;
+  padding: 10px;
+}
+
+.Small_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90px;
+  height: 60px;
+}
+
+.Btn_continue {
+  display: flex;
+  align-items: center;
+  max-width: 370px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 68px;
+  text-align: center;
+  color: #b15a23;
+  box-shadow: 0px 4.33027px 4.33027px rgba(0, 0, 0, 0.25),
+    inset 0px -12px 0px -4px #b26623;
+  position: relative;
+}
+
+/* .Btn_continue::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background: #b26623;
+  bottom: -10px;
+  left: 0;
+  border: 0px;
+  border-radius: 17.3211px;
+} */
+
+.Player_icon {
+  /* width: 50px;
+  height: 50px; */
+  height: 4rem;
+  min-width: 30px;
+}
+
+.Grafic_icon,
+.Friends_icon {
+  height: 40px;
+  min-width: 40px;
+}
+.Grafic_icon > svg,
+.Friends_icon > svg {
+  width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+  .Btn_continue {
+    font-size: 35px;
+  }
+  .Grafic_icon,
+  .Friends_icon {
+    height: 40px;
+  }
+}

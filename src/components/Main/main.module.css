@@ -1,0 +1,18 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.Content {
+  flex: 1 0 auto;
+}
+
+.Settings {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}

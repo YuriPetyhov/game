@@ -1,0 +1,9 @@
+.Timer {
+  font-size: 40px;
+  background: -webkit-linear-gradient(#ffde5e, #ff9900);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 10;
+  right: 30px;
+}
